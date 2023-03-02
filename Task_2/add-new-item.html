@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new item</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div w3-include-html="./html-components/header.html"></div>
+
+    <div class="new-item-header">
+        <p>Add New Coupon</p>
+    </div>
+    
+    <form class="new-item-form">
+        <div class="new-item-part">
+            <label>Item Name</label>
+            <input>
+            <label>Description</label>
+            <textarea rows="10"></textarea>
+            
+        </div>
+
+        <div class="new-item-part">
+            <label>Tags</label>
+            <select>
+                <option>Tag</option>
+            </select>
+            <label>Valid Date</label>
+            <input type="number">
+            <label>Price</label>
+            <input>
+            <label>Images</label>
+            <input type="file">
+
+            <div class="new-item-buttons">
+                <button class="cancel-button padding-fix">Back</button>
+                <button type="submit" class="sing-up-button padding-fix">Save</button>
+            </div>
+        </div>
+        
+        
+    </form>
+
+    <div w3-include-html="./html-components/footer.html"></div>
+    <script>w3IncludeHTML();</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+@import "vars";
+@import "mixins";
+
+body{
+    
+    background-color: @background-color;
+    margin: 0;
+    font: 1em sans-serif;
+}
+a{
+    text-decoration: none;
+}
+textarea {
+    resize: none;
+}
+.large-text{
+    font-size: large
+}
+.gray-color{
+    color: darken(@secondary,40%);
+}
+.img-span{
+    display: inline-block;
+}
+
+@import "blocks/header";
+@import "blocks/category";
+@import "blocks/sing-up";
+@import "blocks/login";
+@import "blocks/coupon";
+@import "blocks/footer";
+@import "blocks/checkout";
+@import "blocks/add-new-item";
+@import "blocks/item-details";
+@import "blocks/pagination";
+@import "blocks/scroll-to-top";

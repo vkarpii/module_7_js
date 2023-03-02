@@ -1,0 +1,64 @@
+//main : ../style.less
+
+.sing-up-form-header,.sing-up-form{
+    margin: 0% 30% 0% 30%;
+}
+.sing-up-form-header{
+    display: flex;
+    text-align: center;
+    background: @gradient;
+    color: @primary;
+    height: 70px;
+    width: auto;
+    padding-left: 1%;
+    margin-top: 10%;
+}
+.s-u-f-p1,.s-u-f-p2{
+    flex: content;
+    .flex-column();
+    margin: 2%;
+}
+.sing-up-form{
+    .flex-row();
+    border: solid 1px;
+    border-image-source: @gradient;
+    box-shadow: @shadow;
+    input{
+        margin-bottom: 1%;
+        padding: 1.5%;
+    }
+}
+.form-required{
+    color: red;
+}
+.sing-up-buttons{
+    .flex-row();
+   margin-top: 5%;
+}
+.sing-up-button{
+    background-color: @success_color;
+    border-color: @success_color;
+    margin-left: 1%;
+}
+.cancel-button{
+    background-color: @cancel_color;
+    border-color: @secondary;
+    margin-right: 1%;
+}
+.sing-up-button,.cancel-button{
+    flex: content;
+    padding: 1%;
+    border-style:solid;
+}
+.sing-up-button:hover{
+    transition-duration: 1.5s;
+    background-color: darken(@success_color,20%);
+    border-color: darken(@success_color,20%);
+    color: @primary;
+}
+.cancel-button:hover{
+    transition-duration: 1.5s;
+    background-color: darken(@background-color,40%);
+    border-color: darken(@background-color,60%);
+    color: @primary;
+}

@@ -1,0 +1,48 @@
+//main : ../style.less
+
+header{
+    background-color: @primary;
+    position: static;
+    height: 50px;
+    width: 98%;
+    .flex-row();
+    align-items: center;
+    justify-content: center;
+    box-shadow: @shadow;
+    padding: 0 1% 0 1%;
+    select,input{
+        padding: 1%;
+        color: darken(@secondary,40%);
+    }
+    input{
+        width: 50%;
+    }
+    a,span,.link-style{
+        color: darken(@secondary,40%);
+        padding: 1%;
+    }
+    a:hover,.span-hover:hover{
+        background: @gradient;
+        color:@primary;
+        border-radius: 10%;
+    }
+}
+.header-left,.header-right,.header-center{
+    display: flex;
+    align-items: center;
+    flex: content;
+}
+.header-left{
+    justify-content: start;
+    span{
+        scale: 1.5;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+}
+.header-center{
+    justify-content: center;
+}
+.header-right{
+    justify-content: end;
+}

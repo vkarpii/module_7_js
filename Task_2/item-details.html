@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item details</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div w3-include-html="./html-components/header.html"></div>
+    
+    <div class="item-details">
+        <div class="item-details-img">
+            <span class="img-span">
+                <img src="assets/photo/category.png">
+            </span>
+        </div>
+        <div class="item-details-info">
+            
+            <p class="large-text item-header"><b>Coupon Name</b></p>
+            <p class="item-description">Some description Some description Some description Some description Some description Some description...</p>
+
+            <div class="item-time">
+                <p class="gray-color">Time Left To Buy</p>
+                <p class="gray-color">12 days 14 hours</p>
+            </div>
+            
+            <div class="item-details-buy">
+                <p class="large-text">$235</p>
+                <div class="item-cart">
+                    <a href="index.html">
+                        Add to Cart  
+                        <span class="material-icons">
+                            shopping_cart
+                            </span>
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div w3-include-html="./html-components/footer.html"></div>
+
+
+
+    <script>w3IncludeHTML();</script>
+</body>
+</html>

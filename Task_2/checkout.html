@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div w3-include-html="./html-components/header.html"></div>
+    
+    <div>
+        <div class="checkout-header">
+            <p><b>Checkout</b></p>
+        </div>
+        <div class="checkout-body">
+            <div w3-include-html="./html-components/checkout-coupon.html"></div>
+            <div w3-include-html="./html-components/checkout-coupon.html"></div>
+            <div w3-include-html="./html-components/checkout-coupon.html"></div>
+
+            <hr>
+
+            <div class="checkout-final">
+                <span>Total</span>
+                <span>$375</span>
+            </div>
+
+            <div class="checkout-buttons">
+                <button class="cancel-button padding-fix">Back</button>
+                <button type="submit" class="sing-up-button padding-fix">Checkout</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div w3-include-html="./html-components/footer.html"></div>
+
+    <script>w3IncludeHTML();</script>
+</body>
+</html>

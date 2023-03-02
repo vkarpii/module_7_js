@@ -1,0 +1,25 @@
+//main : ../style.less
+
+.inner-category{
+    background: @gradient;
+    padding: 0%;
+    width: 100%;
+    .flex-row();
+    box-shadow: @category_shadow;
+    img{
+        height: 80px;
+        width: auto;
+    }
+}
+.category-element{
+    .flex-column();
+    text-align: center;
+    margin:5%;
+    color: @background-color;
+    p{
+        margin: 0;
+    }
+}
+.block-category{
+    flex: content;
+}

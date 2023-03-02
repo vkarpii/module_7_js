@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <div w3-include-html="./html-components/header.html"></div>
+
+    <div class="sing-up-form-header">
+        <h2>Register</h2>
+    </div>
+
+    <main>
+        <form class="sing-up-form">
+            <div class="s-u-f-p1">
+                <label>First Name <span class="form-required">*</span></label>
+                <input>
+                <label>Password <span class="form-required">*</span></label>
+                <input type="password">
+                <label>Login</label>
+                <input>
+                <div>
+                    <p class="form-required">(*) - fields are required</p>
+                </div>
+            </div>
+            
+            <div class="s-u-f-p2">
+                <label>Last Name <span class="form-required">*</span></label>
+                <input>
+                <label>Repeat Password <span class="form-required">*</span></label>
+                <input type="password">
+                <label>Email <span class="form-required">*</span></label>
+                <input type="email">
+                <div class="sing-up-buttons">
+                    <button class="cancel-button">Cancel</button>
+                    <button class="sing-up-button" type="submit">Sign Up</button>
+                </div>
+            </div>
+            
+        </form>
+    </main>
+
+
+    <script>w3IncludeHTML();</script>
+</body>
+</html>

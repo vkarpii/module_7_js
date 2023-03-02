@@ -1,0 +1,53 @@
+//main : ../style.less
+
+.item-details{
+    .flex-row();
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 2%;
+    margin-bottom: 19%;
+    img{
+        width: 80%;
+        box-shadow: @shadow;
+    }
+}
+.item-details-info{
+    padding-left: 2%;
+    padding: 1%;
+    background-color: @primary;
+    box-shadow: @shadow;
+}
+.item-details-buy{
+    .flex-row();
+    align-items: center;
+    p{
+        flex: content;
+        height: 100%;
+        font-size: x-large;
+    }
+}
+.item-header{
+    background: @gradient;
+    padding: 2%;
+    color:@primary;
+    box-shadow: @shadow;
+    margin-bottom: 5%;
+}
+.item-cart{
+    flex: content;
+    height: 100%;
+    span{
+        scale: 1.2;
+    }
+    a{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}
+.item-description{
+    margin-bottom: 3%;
+}
+.item-time{
+    margin-bottom: 12%;
+}

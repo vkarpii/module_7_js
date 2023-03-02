@@ -1,0 +1,19 @@
+{
+  "name": "js_practical_task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js_practival_task.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "js",
+    "jest",
+    "unit"
+  ],
+  "author": "Vitaly Karpii",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.2"
+  }
+}
